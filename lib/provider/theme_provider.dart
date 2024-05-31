@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MyThemeProvider extends ChangeNotifier {
-  bool _isDarkThem = false;
+  bool _isDarkThem = true;
   bool get themeType => _isDarkThem;
 
   set setTheme(bool value) {
