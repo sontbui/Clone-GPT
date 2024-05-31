@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 
 class OTPScreen extends StatefulWidget {
-  final String phoneNumber;
-  const OTPScreen({super.key, required this.phoneNumber});
+  final String? phoneNumber;
+  const OTPScreen({Key? key, required this.phoneNumber}) : super(key: key);
 
   @override
   State<OTPScreen> createState() => _OTPScreeenState();
