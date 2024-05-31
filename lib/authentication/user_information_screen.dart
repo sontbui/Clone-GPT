@@ -209,7 +209,7 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
       lastDate: DateTime.now(),
     );
     if (picked != null) {
-      final formattefDate = DateFormat('dd/MM/yyyy').format(picked);
+      // final formattefDate = DateFormat('dd/MM/yyyy').format(picked);
 
       dobController.text = DateFormat('dd/MM/yyyy').format(picked).toString();
     }

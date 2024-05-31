@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037277418403",
+    "project_id": "clone-gpt-sontbui",
+    "storage_bucket": "clone-gpt-sontbui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037277418403:android:d923a65916081d892e8016",
+        "android_client_info": {
+          "package_name": "com.sontbui.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDw3bvUoUcI6B_hoGa81QYVUJMXDV1uUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,13 +1,19 @@
 import 'package:clone_gpt/authentication/opt_screen.dart';
 import 'package:clone_gpt/authentication/registration.dart';
 import 'package:clone_gpt/authentication/user_information_screen.dart';
+import 'package:clone_gpt/firebase_options.dart';
 import 'package:clone_gpt/main_screnn/home_screen.dart';
 import 'package:clone_gpt/provider/theme_provider.dart';
 import 'package:clone_gpt/themes/themes.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider(create: (_) => MyThemeProvider()),
   ], child: const MyApp()));
