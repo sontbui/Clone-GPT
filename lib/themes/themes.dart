@@ -9,7 +9,7 @@ class MyTheme {
             fontFamily: 'RedditMono-Bold',
             scaffoldBackgroundColor: Color.fromARGB(255, 194, 193, 193),
             primarySwatch: Colors.grey,
-            primaryColorDark: const Color.fromARGB(255, 0, 0, 0),
+            primaryColorDark: Color.fromARGB(255, 141, 141, 141),
             dividerColor: Colors.white,
             disabledColor: Colors.grey,
             cardColor: const Color(0xFF444654),
@@ -21,28 +21,13 @@ class MyTheme {
             buttonTheme: Theme.of(context)
                 .buttonTheme
                 .copyWith(colorScheme: const ColorScheme.dark()),
-            textTheme: const TextTheme(
-              bodyLarge: TextStyle(color: Colors.black), // Default body text
-              bodyMedium: TextStyle(color: Colors.black), // Secondary body text
-              displayLarge: TextStyle(color: Colors.black),
-              displayMedium: TextStyle(color: Colors.black),
-              displaySmall: TextStyle(color: Colors.black),
-              headlineMedium: TextStyle(color: Colors.black),
-              headlineSmall: TextStyle(color: Colors.black),
-              titleLarge: TextStyle(color: Colors.black),
-              titleMedium: TextStyle(color: Colors.black),
-              titleSmall: TextStyle(color: Colors.black),
-              bodySmall: TextStyle(color: Colors.black),
-              labelSmall: TextStyle(color: Colors.black),
-              labelLarge: TextStyle(color: Colors.black),
-            ),
           )
         : ThemeData(
             fontFamily: 'RedditMono-Bold',
             scaffoldBackgroundColor: Color.fromARGB(255, 208, 207, 207),
             primarySwatch: Colors.grey,
-            primaryColorDark: const Color.fromARGB(255, 0, 0, 0),
-            dividerColor: Colors.black,
+            primaryColorDark: Color.fromARGB(255, 166, 164, 164),
+            dividerColor: const Color.fromARGB(255, 114, 114, 114),
             disabledColor: Colors.grey,
             cardColor: Colors.white,
             canvasColor: Colors.grey[50],
@@ -53,21 +38,6 @@ class MyTheme {
             buttonTheme: Theme.of(context)
                 .buttonTheme
                 .copyWith(colorScheme: const ColorScheme.light()),
-            textTheme: const TextTheme(
-              bodyLarge: TextStyle(color: Colors.black), // Default body text
-              bodyMedium: TextStyle(color: Colors.black), // Secondary body text
-              displayLarge: TextStyle(color: Colors.black),
-              displayMedium: TextStyle(color: Colors.black),
-              displaySmall: TextStyle(color: Colors.black),
-              headlineMedium: TextStyle(color: Colors.black),
-              headlineSmall: TextStyle(color: Colors.black),
-              titleLarge: TextStyle(color: Colors.black),
-              titleMedium: TextStyle(color: Colors.black),
-              titleSmall: TextStyle(color: Colors.black),
-              bodySmall: TextStyle(color: Colors.black),
-              labelSmall: TextStyle(color: Colors.black),
-              labelLarge: TextStyle(color: Colors.black),
-            ),
           );
   }
 }

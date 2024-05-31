@@ -1,4 +1,6 @@
+import 'package:clone_gpt/authentication/opt_screen.dart';
 import 'package:clone_gpt/authentication/registration.dart';
+import 'package:clone_gpt/authentication/user_information_screen.dart';
 import 'package:clone_gpt/main_screnn/home_screen.dart';
 import 'package:clone_gpt/provider/theme_provider.dart';
 import 'package:clone_gpt/themes/themes.dart';
@@ -30,6 +32,7 @@ class _MyAppState extends State<MyApp> {
         .getThemesStatus();
   }
 
+  final String a = '1223123132313';
   @override
   Widget build(BuildContext context) {
     return Consumer<MyThemeProvider>(
@@ -39,7 +42,7 @@ class _MyAppState extends State<MyApp> {
         debugShowCheckedModeBanner: false,
         theme:
             MyTheme.themeData(isDarkTheme: value.themeType, context: context),
-        home: const RegistrationScreen(),
+        home: const UserInformationScreen(phoneNumber: '1234567890'),
       );
     });
   }
